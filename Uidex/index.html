@@ -16,7 +16,7 @@
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
-        <div class="container">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./assets/images/logo-dark.svg" alt="UINDEX">
           </a>
@@ -50,26 +50,27 @@
     </nav>
 
     <!-- HEADER -->
-    <section id="hero" class="min-vh-100 d-flex">
-        <div class="container">
-          <div class="row">
-            <div class="col-6">
-              <h1 data-aos="fade-down" class= "fw-semibold display-1">Creative Design Agency</h1>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-              <div>
-                <a href="#" class="btn btn-brand me-2">Let’s Talk With us</a>
+    <section id="hero" class="min-vh-100 d-flex align-items-center">
+      <div class="container-fluid">
+          <div class="row p-5">
+              <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start d-flex flex-column align-items-center  align-items-md-start">
+                  <h1 data-aos="fade-down" class="fw-semibold display-1">Creative Design Agency</h1>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                  <div>
+                      <a href="#" class="btn btn-brand me-2">Let’s Talk With us</a>
+                  </div>
               </div>
-            </div>
-            <div class="col-6">
-              <img class="hero-1" src="./assets/images/hero-1.svg">
-            </div>
+              <div class="col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center">
+                  <img class="hero-1 img-fluid" src="./assets/images/hero-1.svg" alt="Hero Image">
+              </div>
           </div>
-        </div>
-      </section>
+      </div>
+  </section>
+  
 
     <!-- PARTNERS -->
     <section id="about" class="section-padding">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
               <div class="section-title">
@@ -115,6 +116,51 @@
             </div>
         </div>
       </section>
+
+    <!--Explore what we have done -->
+    <section id="services" class="section-padding">
+      <div class="container">
+        <div class="row gx-3">
+          <div class="col-md text-center text-xl-start">
+            <h1>Explore what we have done</h1>
+          </div>
+          <div class="col-md text-center text-xl-start">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <a href="#">See Our Work</a>
+          </div>
+        </div>
+        <div class="row gx-5">
+          <div class="col-md-6 cl-lg-5">
+            <div>
+              <img src="./assets/images/prev-1.svg" alt="Card image 1">
+              <h3>Hopscotch - had a vision to change the B2B payments space for good.</h3>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5">
+            <div>
+              <img src="./assets/images/prev-2.svg" alt="Card image 2">
+              <h3>Hopscotch - had a vision to change the B2B payments space for good.</h3>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5">
+            <div>
+              <img src="./assets/images/prev-4.svg" alt="Card image 2">
+              <h3>Hopscotch - had a vision to change the B2B payments space for good.</h3>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5">
+            <div>
+              <img src="./assets/images/prev-3.svg" alt="Card image 2">
+              <h3>Hopscotch - had a vision to change the B2B payments space for good.</h3>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

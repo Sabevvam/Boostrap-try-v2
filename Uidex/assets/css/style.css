@@ -1,5 +1,6 @@
 :root {
-    --c-dark: #2E373C;
+    --c-light-dark: #2E373C;
+    --c-dark: #151515;
     --c-light: #E7F0FE;
     --c-light-medium: #609efa;
     --c-brand: #1C78FF;
@@ -18,7 +19,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 600;
-    color: var(--c-dark);
+    color: var(--c-light-dark);
 }
 
 a {
@@ -48,7 +49,7 @@ img {
 
 .navbar-nav .nav-link {
     font-weight: 400;
-    color: var(--c-dark);
+    color: var(--c-light-dark);
 }
 
 .navbar-nav .nav-link.active {
@@ -82,7 +83,7 @@ img {
 }
 
 #hero h1 {
-    color: var(--c-dark);
+    color: var(--c-light-dark);
     font-family: var(--font-second);
     line-height: 90px;
     max-width: 454px;
@@ -117,8 +118,8 @@ img {
 }
 
 .section-title{
-    width: 743px;
-    height: 66px;
+    max-width: 743px;
+    max-height: 66px;
     margin: 16px auto 4px;
     font-family: var(--font-second);
     color: #151515;
@@ -168,5 +169,59 @@ img {
     border: 2px solid #151515;
 }
 
+/* PORTFOLIO */
+#services {
+    background-color: var(--c-dark);
+}
 
-/* SPONSOR */
+#services h1 {
+    color: #F3F7FE;
+    max-width: 448px;
+    max-height: 225px;
+    font-family: var(--font-second);
+    font-size: 72px;
+}
+
+#services p {
+    color: #fff;
+    font-size: 20px;
+}
+
+#services a {
+    text-decoration: underline;
+    color: white;
+    font-size: 28px;
+}
+
+/* для екранів шириною від 1200px до 992px */
+@media (max-width: 1200px) {
+    #services h1 {
+      font-size: 64px;
+    }
+
+    #services p, a {
+        font-size: 20px;
+    }
+  }
+  
+  /* для екранів шириною від 992px до 768px */
+  @media (max-width: 992px) {
+    #services h1 {
+      font-size: 56px;
+    }
+
+    #services p, a {
+        font-size: 18px;
+    }
+  }
+  
+  /* для екранів шириною до 768px */
+  @media (max-width: 768px) {
+    #services h1 {
+      font-size: 48px;
+    }
+
+    #services p, a {
+        font-size: 16px;
+    }
+  }

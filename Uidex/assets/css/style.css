@@ -241,3 +241,7 @@ img {
    max-width: 805px;
 }
 
+#reviews .col {
+    max-width: 1000px;
+}
+

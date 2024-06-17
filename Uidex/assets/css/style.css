@@ -280,3 +280,79 @@ img {
         padding: 20px;
       }
    }
+   
+
+/* FOOTER */
+.footer-top {
+    background-color: var(--c-dark);
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: white;
+    color: var(--c-dark);
+    margin-right: 0.5rem;
+}
+
+.social-icons a:hover {
+    background-color: var(--c-brand);
+    color: white;
+}
+
+#footer li {
+    list-style-type: none;
+}
+
+#footer input {
+    width: 277px;
+    height: 54px;
+    border-radius: 5px;
+}
+
+.input-button-container {
+    position: relative;
+  }
+  
+  .input-button-container input {
+    flex-grow: 1;
+    border: none;
+    padding: 5px;
+    outline: none;
+  }
+  
+  .input-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 72px;
+    height: 54px;
+    background: var(--c-brand);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-s {
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+
+  .footer-bottom {
+    background-color: var(--c-brand);
+  }
+
+  .list li {
+    display: inline-block;
+    margin: 0 10px;
+  }

@@ -245,3 +245,38 @@ img {
     max-width: 1000px;
 }
 
+@media (max-width: 767px) {
+    .card.mb-3 {
+       margin: 0 auto;
+       max-width: 90%;
+     }
+
+    .row.justify-content-center.pt-5 {
+       flex-direction: column;
+       align-items: center;
+     }
+
+    .col-md-6 {
+       width: 100%;
+     }
+
+     .section-title h1 {
+        padding-bottom: 10px;
+        font-size: 25px;
+      }
+
+     .section-title p {
+        font-size: 12px;
+      }
+
+      .card-text.text-1 {
+        font-size: 0.8rem; /* reduce the font size of the text on small screens */
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .prof-pic {
+        margin: 20px;
+        padding: 20px;
+      }
+   }
